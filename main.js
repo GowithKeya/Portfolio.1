@@ -153,7 +153,7 @@ form.addEventListener('submit', async (e) => {
     e.preventDefault();
 
     const formData = new FormData(form);
-    formData.append("access_key", "7cc7b652-9138-443a-bcf0-ac7942beaeaf");
+    formData.append("access_key", "paste_your_api_here");
 
     const originalText = submitBtn.textContent;
 
